@@ -181,6 +181,7 @@ if (isDevelopment) {
 
         if (visibilityState === "visible") {
           if (logseq.settings?.autoCheckSynced) checkIsSynced();
+          if (logseq.settings?.autoPullRebase) operations.pullRebase();
         } else if (visibilityState === "hidden") {
           // logseq.UI.showMsg(`Page is hidden: ${new Date()}`, 'success', { timeout: 0 })
           // noChange void

@@ -143,4 +143,11 @@ export const SETTINGS_SCHEMA: SettingSchemaDesc[] = [
     default: false,
     description: "Auto push when logseq hidden",
   },
+  {
+    key: "autoPullRebase",
+    title: "Auto Pull Rebase",
+    type: "boolean",
+    default: false,
+    description: "Auto pull rebase when logseq unhidden",
+  },
 ];
