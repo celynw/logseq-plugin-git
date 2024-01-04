@@ -17,7 +17,14 @@ With this plugin, you can:
 
 Install from the Logseq Plugin Store
 
+If developing:
+
+1. Enable developer mode in Logseq
+1. From this repository, do `npm install`, then `npm run build` to create the `dist/` directory
+1. In Logseq, `Load unpacked plugin` and choose the root of this repo
+
 ## Shortcuts
+
 The plugin provides a shortcut key (mod+s) to quickly commit and push changes to the remote repository.
 
 ## Toolbar Icon
