@@ -141,6 +141,6 @@ export const SETTINGS_SCHEMA: SettingSchemaDesc[] = [
     title: "Auto Push",
     type: "boolean",
     default: false,
-    description: "Auto push when logseq hide",
+    description: "Auto push when logseq hidden",
   },
 ];
